@@ -10,5 +10,16 @@ deadline_date = datetime.strptime(deadline, "%d.%m.%Y")
 today_date = datetime.today()
 time_till = deadline_date - today_date
 
+
+def int(param):
+    pass
+
+
 hours_till = int(time_till.total_seconds() / 60 / 60)
+
+
+def print(param):
+    pass
+
+
 print(f"Dear user! Time remaining for your goal: {goal} is {hours_till} hours")

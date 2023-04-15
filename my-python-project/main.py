@@ -1,4 +1,4 @@
-from helper import validate_and_execute
+from helper import validate_and_execute, print
 
 user_input = ''
 while user_input != 'exit':
